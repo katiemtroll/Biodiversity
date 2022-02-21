@@ -12,25 +12,25 @@
 
   <body>
 
-  <!-- Mobile responsiveness -->
+  <!--Mobile responsiveness-->
     <div class="wrapper">
 
-        <!-- Jumbotron-->
+        <!--Jumbotron-->
       <div class="jumbotron">
         <h1>Belly Button<br>Biodiversity Dashboard</h1>
         <h2>Use the dashboard below to explore which<br>common bacteria found in the human belly button<br>may help to create beef flavored "impossible" meat!</h2>
       </div>
 
-      <!-- Dropdown Filter & Demographics Table -->
+      <!--Dropdown Filter & Demographics Table-->
       <div class="col-md-2">
 
-        <!--   Dropdown menu with an id of selDataset -->
+        <!--Dropdown menu with an id of selDataset-->
         <div class="well">
           <h3>Test Subject ID No.</h3>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
 
-        <!--   Result demographics of selected option ^ -->
+        <!--Result demographics of selected option-->
         <div class="panel panel-primary">
           <div class="panel-heading">
           <h3 class="panel-title">Demographic Info</h3>
@@ -40,20 +40,17 @@
 
         </div>
 
-        <!-- Bar Chart -->
+        <!--Bar Chart-->
         <div class="col-md-5">
         <div id="bar"></div>
           <div class="caption">This graph depicts the top 10 bacteria that may create the flavor we're looking for!</div>
         </div>
 
-        <!-- Guage Chart -->
+        <!--Gauge Chart-->
         <div class="col-md-5">
         <div id="gauge"></div>
           <div class="caption">This gauge depicts the average frequency per week that the sample population washed their belly button.</div>
         </div>
-
-        <!-- 5th row start -->
-        <div class="row">
 
         <!-- Bubble Chart -->
         <div class="col-md-12" class="text-center">
